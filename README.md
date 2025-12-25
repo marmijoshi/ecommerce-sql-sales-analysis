@@ -21,8 +21,6 @@ The schema follows a relational design using primary and foreign keys to support
 - INNER JOINs across multiple tables
 - Aggregations and GROUP BY
 - Subqueries
-- Common Table Expressions (CTEs)
-- Window Functions (RANK, ROW_NUMBER)
 - SQL Views
 - Indexing for query performance optimization
 
