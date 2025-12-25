@@ -4,59 +4,51 @@
 This project focuses on analyzing e-commerce sales and customer behavior using SQL.
 The objective is to extract meaningful business insights from structured transactional data.
 
-The analysis covers revenue trends, customer segmentation, repeat purchases, and product performance using advanced SQL concepts.
-
 ---
 
 ## Database Schema
-The database includes the following core tables:
-- Customers
-- Orders
-- Order_Items
-- Products
-- Payments
+The database consists of the following tables:
+- customers
+- products
+- orders
+- order_details
 
-Each table is connected using primary and foreign keys to support relational analysis.
+The schema follows a relational design using primary and foreign keys to support multi-table analysis.
 
 ---
 
-## Key Concepts Used
-- Complex JOINs (INNER, LEFT)
+## SQL Concepts Used
+- INNER JOINs across multiple tables
+- Aggregations and GROUP BY
 - Subqueries
 - Common Table Expressions (CTEs)
-- Window Functions (RANK, ROW_NUMBER, SUM OVER)
-- Aggregations and filtering
-- Index usage for query optimization
+- Window Functions (RANK, ROW_NUMBER)
+- SQL Views
+- Indexing for query performance optimization
 
 ---
 
-## Business Questions Answered
-- Total revenue and monthly sales trends
-- Top-performing products and categories
-- Customer purchase frequency and repeat customers
-- Average order value per customer
-- Revenue contribution by customer segments
-
----
-
-## Sample Insights
-- Identified high-value repeat customers contributing a significant portion of total revenue
-- Analyzed product-level performance to highlight top revenue-generating items
-- Detected seasonal trends in monthly sales data
+## Business Analysis Performed
+- Monthly revenue trend analysis
+- Top-selling products based on quantity sold
+- Customer repeat purchase analysis
+- Average order value calculation
+- Category-wise revenue analysis
+- Customer-wise total spending analysis
 
 ---
 
 ## Tools & Technologies
 - SQL (MySQL)
 - MySQL Workbench
-- GitHub for version control and documentation
+- GitHub
 
 ---
 
-## How to Use
+## How to Run
 1. Import the SQL file into MySQL Workbench
-2. Run table creation and data insertion scripts
-3. Execute analysis queries to explore insights
+2. Execute table creation and data insertion scripts
+3. Run analysis queries to generate insights
 
 ---
 
